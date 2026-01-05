@@ -92,7 +92,7 @@ export function YandexLoginButton({
       {isLoading ? (
         <Spinner className="!w-5 !h-5 mr-2 flex-shrink-0" />
       ) : (
-        <YandexIcon className="!w-6 !h-6 mr-1 flex-shrink-0" />
+        <YandexIcon className="!w-5 !h-5 mr-2 flex-shrink-0" />
       )}
       {isLoading ? "Загрузка..." : buttonText}
     </Button>
